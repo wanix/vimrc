@@ -1,12 +1,14 @@
 call pathogen#infect()
-"set background=dark
+set background=dark
 syntax on
 
 set nocompatible
-filetype indent plugin on
+"filetype indent plugin on
 set expandtab
 set smarttab
 set autoindent
+set tabstop=2
+set shiftwidth=2
 
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
