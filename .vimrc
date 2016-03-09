@@ -3,10 +3,10 @@ set background=dark
 syntax on
 
 set nocompatible
-"filetype indent plugin on
+filetype indent plugin on
 set expandtab
 set smarttab
-set autoindent
+"set autoindent
 set tabstop=2
 set shiftwidth=2
 
@@ -18,6 +18,6 @@ let g:syntastic_quiet_messages = {'level': 'warnings'}
 let g:syntastic_auto_loc_list=1
 
 "To enable Just puppet-lint and disable the parser uncomment next line
-"let g:syntastic_puppet_checkers=['puppetlint']
+let g:syntastic_puppet_checkers=['puppetlint']
 "
 let g:vim_markdown_folding_disabled=1
