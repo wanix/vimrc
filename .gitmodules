@@ -31,3 +31,6 @@
 [submodule "colors/lucius"]
 	path = colors/lucius
 	url =  https://github.com/jonathanfilip/vim-lucius
+[submodule "bundle/vim-terraform"]
+	path = bundle/vim-terraform
+	url = https://github.com/hashivim/vim-terraform.git
