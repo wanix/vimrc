@@ -32,3 +32,9 @@ let python_space_errors = 1
 let ruby_space_errors = 1
 let g:syntastic_python_checkers = ['flake8']
 let g:syntastic_python_flake8_post_args='--max-line-length=160'
+
+let g:terraform_align = 1
+let g:terraform_remap_spacebar = 1
+let g:terraform_fmt_on_save = 1
+
+autocmd FileType terraform setlocal commentstring=#%s
